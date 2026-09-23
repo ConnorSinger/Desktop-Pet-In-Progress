@@ -6,7 +6,7 @@ window = tk.Tk()
 x = 100
 y = 100
 direction = 0
-impath = 'C:\\Users\\conno\\OneDrive\\Documents\\CSC Scripts\\having fun\\gifs\\'  # Ensure this path is correct
+impath = 'gifs'  # Ensure this path is correct
 idle_frames = [tk.PhotoImage(file=impath + 'idle.gif', format=f'gif -index {i}') for i in range(11)]  # Change range to match the number of frames in your GIF
 walking_frames = [tk.PhotoImage(file=impath + 'walking.gif', format=f'gif -index {i}') for i in range(6)]  # Change range to match the number of frames in your GIF
 walking_frames2 = [tk.PhotoImage(file=impath + 'walking2.gif', format=f'gif -index {i}') for i in range(6)]  # Change range to match the number of frames in your GIF
